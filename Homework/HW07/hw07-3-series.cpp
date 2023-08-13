@@ -20,29 +20,29 @@
 #include <stdio.h>
 
 int main() {
-    int n;
-    printf("Enter number: ");
-    scanf("%d", &n);
+    int a ;
+    printf( "Enter number : ") ;
+    scanf( "%d", &a) ;
 
-    int term = 9;
-    int sum = 0;
-    int i = 0;
+    int term = 9 ;
+    int sum = 0 ;
+    int i = 0 ;
 
-    printf("Series = ");
+    printf("Series = ") ;
 
     do {
-        printf("%d", term);
-        sum += term;
-        term = term * 10 + 9;
+        printf("%d", term) ;
+        sum += term ;
+        term = term * 10 + 9 ;
 
-        if (i < n - 1) {
-            printf(" + ");
+        if (i < a - 1) {
+            printf( " + ") ;
         }
 
         i++;
-    } while (i < n);
+    } while (i < a) ; 
 
-    printf("\nSum = %d\n", sum);
+    printf( "\nSum = %d\n", sum) ;
 
-    return 0;
-}
+    return 0 ;
+}//end main fuction
