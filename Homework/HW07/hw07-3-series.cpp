@@ -26,20 +26,20 @@ int main() {
 
     int term = 9 ;
     int sum = 0 ;
-    int i = 0 ;
+    int i = 0 ; 
 
-    printf("Series = ") ;
+    printf( "Series = ") ;
 
     do {
-        printf("%d", term) ;
+        printf( "%d", term) ;
         sum += term ;
         term = term * 10 + 9 ;
 
         if (i < a - 1) {
             printf( " + ") ;
-        }
+        }//end if
 
-        i++;
+        i++ ;
     } while (i < a) ; 
 
     printf( "\nSum = %d\n", sum) ;
